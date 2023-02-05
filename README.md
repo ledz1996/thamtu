@@ -5,22 +5,22 @@ it is difficult to track which package is being used in which repository. This t
 and tracking tool 
 
 Key components:
-    - `syft` - https://github.com/anchore/syft
-    - `mongodb` for storage
+- `syft` - https://github.com/anchore/syft
+- `mongodb` for storage
     
 Supporting languages:
-    - npm
-    - java (war, jar, ear, ...)
-    - ruby (gem)
-    - php 
-    - python-pip
-    - rust
-    - golang
+- npm
+- java (war, jar, ear, ...)
+- ruby (gem)
+- php 
+- python-pip
+- rust
+- golang
     
 Current working functionality:
-    - Parsing pure-Git remote repository
-    - Parsing a single GitLab repository (only grabbing package info files)
-    - Parsing any visible GitLab repository
+- Parsing pure-Git remote repository
+- Parsing a single GitLab repository (only grabbing package info files)
+- Parsing any visible GitLab repository
 
 ## Usage
 
