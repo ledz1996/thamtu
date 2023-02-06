@@ -27,7 +27,7 @@ Current working functionality:
 Use the following command to display all supported commands:
 
 ```
-python3 thamtu.py help
+python3 thamtu.py --help
 ```
 
 Environment variables to set:
